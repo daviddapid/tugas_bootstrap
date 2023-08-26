@@ -1,0 +1,60 @@
+.section-hero {
+    margin-top: 50px;
+}
+
+.hero-name {
+    text-align: right;
+}
+
+.hero-name h1 {
+    font-size: 90px;
+}
+
+.hero-name h1 {
+    line-height: 76px;
+    font-size: 90px;
+}
+
+.hero-name h1:nth-child(2) {
+    line-height: 76px;
+}
+
+.card-hero {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-color: transparent;
+}
+
+.card-hero img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-hero img:last-child {
+    animation: fadeUp 1.5s linear infinite;
+}
+
+@keyframes fadeUp {
+    to {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero-name {
+        text-align: center;
+    }
+
+    .hero-name h1 {
+        font-size: 68px;
+        line-height: 65px;
+    }
+
+    .hero-name button {
+        width: 100%;
+    }
+}
