@@ -7,10 +7,12 @@
 /* component */
 .navbar {
     backdrop-filter: blur(6px);
+    background-color: #ffffff33;
+    box-shadow: 0 5px 9px #00000033;
 }
 
 .border {
-    border-width: 4px !important;
+    border-width: 1px !important;
 }
 
 .border.border-primary {
@@ -44,6 +46,16 @@
 
 .card-img {
     border: 10px solid white;
+}
+
+.table {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 15px 30px;
 }
 
 /* util */
